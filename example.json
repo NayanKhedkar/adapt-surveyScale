@@ -1,0 +1,72 @@
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "surveyScale",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Survey Scale",
+        "displayTitle": "Survey Scale",
+        "body": "Question text here",
+        "instruction": "",
+        "disabledBody": "You need to submit your ratting.",
+        "_attempts": 1,
+        "_shouldDisplayAttempts": false,
+        "_canShowFeedback": true,
+        "_commentCanShowMarking": "If you enable _canShowMarking it will work but will always mark as correct answer",
+        "_canShowMarking": false,
+        "_questionWeight": 1,
+        "_recordInteraction": true,
+        "labelStart": "Not at all likely",
+        "labelEnd": "Extremely likely",
+        "_scaleStart": 0,
+        "_scaleEnd": 10,
+        "_scaleStep": 1,
+        "_defaultSelectedItem":3,
+        "_showNumber": true,
+        "_isResetOnRevisit": false,
+        "_shouldStoreResponses": true,
+        "_feedback": {
+            "feedbackSeparator": " ",
+            "generic": "Thanks for rating.",
+            "_comparison": {
+                "lower": "Oh you like it less?",
+                "same": "Well, at least you don't like it less.",
+                "higher": "It looks like you're seeing the benefits more and more!"
+            },
+            "_threshold": [
+                {
+                    "_values": {
+                        "_low": 0,
+                        "_high": 4
+                    },
+                    "text": "Don't worry, we will be update soon."
+                },
+                {
+                    "_values": {
+                        "_low": 5,
+                        "_high": 10
+                    },
+                    "text": "Feeling pretty."
+                }
+            ]
+        },
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Submit your answer by clicking here."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": "Reset the question by clicking here."
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": "View the question feedback again by clicking here."
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": false
+        }
+    }

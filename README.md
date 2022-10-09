@@ -1,6 +1,6 @@
 # adapt-surveyScale
 
-**Survey Scale** is a *reflective question component* bundled with the [Adapt framework](https://github.com/adaptlearning/adapt_framework).
+**Survey Scale** is a question component  that measures user rating, using a sliding scale.
 
 
 
